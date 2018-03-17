@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.2.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.2.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="plotdiv" id="277eee7b-442a-4876-b35b-5cb34a51796d"></div>
+        </div>
+        
+        <script type="text/javascript">
+            Bokeh.$(function() {
+            Bokeh.safely(function() {
+                var docs_json = {"a90e1b9c-7f75-427e-a2f7-6ff8cfe3f83a":{"roots":{"references":[{"attributes":{},"id":"dcefaec9-b932-4e32-b95b-59cbf379af49","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"2bb549fc-a176-4c2a-a968-fafe3f7e7265","type":"Circle"},{"attributes":{"callback":null},"id":"7a2ea0e3-0150-40b9-bc31-32f2a9b7b41c","type":"DataRange1d"},{"attributes":{},"id":"f68f6e2f-c736-4d5f-98eb-e995ed23edcf","type":"ToolEvents"},{"attributes":{"callback":null},"id":"7cf68ae6-1613-4467-bc75-fcc2a648e17a","type":"DataRange1d"},{"attributes":{"plot":{"id":"013817a2-0866-4831-b39a-6bff617e7d85","subtype":"Figure","type":"Plot"},"ticker":{"id":"8637b0de-5d3f-4eaf-bc66-1a5496b7c232","type":"BasicTicker"}},"id":"5856e15c-d3be-4b62-8c78-7bf3807c1c39","type":"Grid"},{"attributes":{"dimension":1,"plot":{"id":"013817a2-0866-4831-b39a-6bff617e7d85","subtype":"Figure","type":"Plot"},"ticker":{"id":"dcefaec9-b932-4e32-b95b-59cbf379af49","type":"BasicTicker"}},"id":"b675fd08-e5c2-43e6-95ea-8f2bca2c3acf","type":"Grid"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"3ffa8ffa-6adb-47b8-b575-bea9a5a45a29","type":"HoverTool"}]},"id":"2294f74f-3b29-4d00-b0a8-761e24abec3d","type":"Toolbar"},{"attributes":{"formatter":{"id":"72ad3ea4-4453-4da7-96b9-3c6a8e0ffe15","type":"BasicTickFormatter"},"plot":{"id":"013817a2-0866-4831-b39a-6bff617e7d85","subtype":"Figure","type":"Plot"},"ticker":{"id":"8637b0de-5d3f-4eaf-bc66-1a5496b7c232","type":"BasicTicker"}},"id":"e2f47bed-ce94-4a58-879f-3f091351f904","type":"LinearAxis"},{"attributes":{"plot":null,"text":"Trend of # of Females Enrolled by Class"},"id":"497ef840-b469-457c-8739-5fb7b9257ae4","type":"Title"},{"attributes":{"below":[{"id":"e2f47bed-ce94-4a58-879f-3f091351f904","type":"LinearAxis"}],"left":[{"id":"f32a2720-2dc3-4ced-bc81-436fcfa5ce2a","type":"LinearAxis"}],"plot_height":400,"plot_width":400,"renderers":[{"id":"e2f47bed-ce94-4a58-879f-3f091351f904","type":"LinearAxis"},{"id":"5856e15c-d3be-4b62-8c78-7bf3807c1c39","type":"Grid"},{"id":"f32a2720-2dc3-4ced-bc81-436fcfa5ce2a","type":"LinearAxis"},{"id":"b675fd08-e5c2-43e6-95ea-8f2bca2c3acf","type":"Grid"},{"id":"b2f4547c-69dc-494f-a603-c571f2c97741","type":"GlyphRenderer"}],"title":{"id":"497ef840-b469-457c-8739-5fb7b9257ae4","type":"Title"},"tool_events":{"id":"f68f6e2f-c736-4d5f-98eb-e995ed23edcf","type":"ToolEvents"},"toolbar":{"id":"2294f74f-3b29-4d00-b0a8-761e24abec3d","type":"Toolbar"},"x_range":{"id":"7cf68ae6-1613-4467-bc75-fcc2a648e17a","type":"DataRange1d"},"y_range":{"id":"7a2ea0e3-0150-40b9-bc31-32f2a9b7b41c","type":"DataRange1d"}},"id":"013817a2-0866-4831-b39a-6bff617e7d85","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"8637b0de-5d3f-4eaf-bc66-1a5496b7c232","type":"BasicTicker"},{"attributes":{"formatter":{"id":"60d40223-a21d-435c-8767-1aa5219c1065","type":"BasicTickFormatter"},"plot":{"id":"013817a2-0866-4831-b39a-6bff617e7d85","subtype":"Figure","type":"Plot"},"ticker":{"id":"dcefaec9-b932-4e32-b95b-59cbf379af49","type":"BasicTicker"}},"id":"f32a2720-2dc3-4ced-bc81-436fcfa5ce2a","type":"LinearAxis"},{"attributes":{},"id":"72ad3ea4-4453-4da7-96b9-3c6a8e0ffe15","type":"BasicTickFormatter"},{"attributes":{},"id":"60d40223-a21d-435c-8767-1aa5219c1065","type":"BasicTickFormatter"},{"attributes":{"callback":null,"plot":{"id":"013817a2-0866-4831-b39a-6bff617e7d85","subtype":"Figure","type":"Plot"},"tooltips":[["Number of female declared their major","$y"],["Class","@year"]]},"id":"3ffa8ffa-6adb-47b8-b575-bea9a5a45a29","type":"HoverTool"},{"attributes":{"data_source":{"id":"4c8c47ea-0cb7-4106-9140-74d182809409","type":"ColumnDataSource"},"glyph":{"id":"0e98a284-1742-4123-aa43-6e5b6138fb7d","type":"Circle"},"hover_glyph":null,"nonselection_glyph":{"id":"2bb549fc-a176-4c2a-a968-fafe3f7e7265","type":"Circle"},"selection_glyph":null},"id":"b2f4547c-69dc-494f-a603-c571f2c97741","type":"GlyphRenderer"},{"attributes":{"callback":null,"column_names":["x","y","year"],"data":{"x":[1,2,3,4],"y":[5782,6490,7170,9784],"year":["Freshmen","Sophomores","Juniors","Seniors"]}},"id":"4c8c47ea-0cb7-4106-9140-74d182809409","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":20},"x":{"field":"x"},"y":{"field":"y"}},"id":"0e98a284-1742-4123-aa43-6e5b6138fb7d","type":"Circle"}],"root_ids":["013817a2-0866-4831-b39a-6bff617e7d85"]},"title":"Bokeh Application","version":"0.12.2"}};
+                var render_items = [{"docid":"a90e1b9c-7f75-427e-a2f7-6ff8cfe3f83a","elementid":"277eee7b-442a-4876-b35b-5cb34a51796d","modelid":"013817a2-0866-4831-b39a-6bff617e7d85"}];
+                
+                Bokeh.embed.embed_items(docs_json, render_items);
+            });
+        });
+        </script>
+    </body>
+</html>
